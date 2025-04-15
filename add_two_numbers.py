@@ -1,8 +1,5 @@
 def add_two_numbers(l1: list[int], l2: list[int]) -> list[int]:
     buildstring  = ''
-
-    
-    
     for index, num in enumerate(l1):
         buildstring += str(num)
     
